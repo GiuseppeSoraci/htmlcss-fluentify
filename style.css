@@ -167,43 +167,31 @@ p {
     text-align: center;
 }
 
-/* SECOND SECTION */
+/* FIRST SECTION */
 .macro-section-container {
     width: 1000px;
-    display: inline-block;
-    margin-bottom: 10px;
-    margin-top: 3%;
+    margin: 3% auto 10px;  
     text-align: center;
-}
-
-.columns {
-    position: absolute;
-    left: 40vh;
-
+    margin-bottom: 40px;
 }
 
 main .col-right {
-    width: 25%;  
-    height: 300px;
-    display: inline-block;
+    width: 33%;  
     float: left;
+    padding-right: 30px;
 }
 
 main .col-left {
-    width: 25%;  
-    height: 300px;
-    display: inline-block;
+    width: 33%;  
     float: left;
-    margin-right: 40px;  
+    padding-right: 30px;
 }
 
 main .col-center {
-    width: 25%;  
-    height: 300px;
-    display: inline-block;
+    width: 33%;  
     float: left;
-    margin-left: 40px;
-    margin-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .img-right{
@@ -235,7 +223,7 @@ main .col-center {
 
 .columns .title-article {
     color: green;
-    font-size: 21px;
+    font-size: 23px;
     margin-bottom: 25px;
     margin-top: 15px;
 }
@@ -250,3 +238,32 @@ main .col-center {
     width: 100px;
     margin-left: 35%;
 }
+
+/* SECOND SECTION */
+.macro-section-container-2 {
+    width: 1000px;
+    margin: 3% auto 10px;  
+    margin-bottom: 40px;
+}
+
+main .mountain {
+    width: 50%;  
+    float: left;
+    padding-right: 50px;
+}
+
+main .text-right {
+    width: 50%;  
+    float: left;
+    padding-left: 50px;
+}
+
+h2.text-right {
+    color: black;
+}
+
+a.text-right {
+    color: rgb(91, 138, 207);
+    margin-top: 20px;
+}
+
