@@ -158,7 +158,7 @@ p {
 .text-bottom {
     position: absolute;
     top: 50%;
-    right: 35%;
+    right: 30%;
     transform: translateY(-50%);
     text-align: center;
 }
@@ -276,41 +276,40 @@ footer {
 }
 
 .footer-left {
-    width: 40%;  
+    width: 50%;  
     float: left;
 }
 
 .footer-left h2 {
     color: black;
-    margin-top: 40px;
+    line-height: 100px;
 }
 
 
 .footer-right {
-    width: 60%;  
+    width: 50%;  
     float: left;
-    position: relative;
 }
 
 .footer-right span {
     padding-right: 25px;
     font-size: 15px;
+    line-height: 100px;
 }
 
 #selection {
     width: 140px;
     margin-right: 20px;
     font-size: 15px;
+    border: none;
     border-bottom: 1px solid #696565;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
     background-color: transparent;
     color: #817f7f;
 }
 
 .btn-help {
-    position: absolute;
-    top: 40px;       
+    position: fixed;
+    bottom: 0;       
+    min-width: 50px;
 }
 
